@@ -26,16 +26,16 @@ Ce projet a pour objectif de gérer les utilisateurs et les groupes dans un envi
    - Suppression de groupes vides.
 
 4. **Gestion des permissions** (partie 4)
-   - Configuration des permissions d'accès pour différents groupes sur des répertoires spécifiques.
+   - Configuration des permissions d'accès pour différents groupes sur les répertoires.
 
 ## Installation
 
-1. Clonez ce dépôt :
+1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/votre_nom_utilisateur/nom_du_depot.git
-2. Naviguez dans le répertoire du projet :
+   git clone https://github.com/HFI80Z/Projet_ACL.git
+2. Aller dedans :
     ```bash
-    cd nom_du_depot
+    cd Projet_ACL
 
 ## Utilisation
 
@@ -43,31 +43,26 @@ Exécutez le script pour chaque partie selon les besoins :
 
 - Pour ajouter/modifier des utilisateurs :
     ```bash
-    bash partie1_1.sh
+    bash partie1.sh
     ```
 
 - Pour gérer les utilisateurs inactifs :
     ```bash
-    bash partie2_1.sh
+    bash partie2.sh
     ```
 
 - Pour gérer les groupes :
     ```bash
-    bash partie3_1.sh
+    bash partie3.sh
     ```
 
 - Pour configurer les permissions :
     ```bash
-    bash partie4_1.sh
+    bash partie4.sh
     ```
 
 ## Contributeurs
 
-- **Esteban** : Partie 2 (1.sh)
-- **John** : Partie 1 (1.sh) et Partie 4 (1.sh)
-- **Anthony** : Partie 3 (1.sh)
-
-## Avertissements
-
-- Assurez-vous d'exécuter ces scripts avec les permissions appropriées (souvent en tant que super utilisateur).
-- Vérifiez les sauvegardes avant de supprimer des utilisateurs.
+- **Esteban** : Partie 2
+- **John** : Partie 1 et Partie 4
+- **Anthony** : Partie 3
